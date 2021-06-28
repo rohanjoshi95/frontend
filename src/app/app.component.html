@@ -1,0 +1,24 @@
+<div style="text-align:center">
+  <h1>
+    {{ title }}!
+  </h1>
+  <table class="margin-style">
+    <thead>
+      <th class="table-style">
+        Employee Id:
+      </th>
+      <th class="table-style">
+        First Name:
+      </th>
+      <th class="table-style">
+        Last Name:
+      </th>
+    </thead>
+    <tbody>
+      <td class="table-style">{{obj.empId}}</td>
+      <td class="table-style">{{obj.firstName}}</td>
+      <td class="table-style">{{obj.lastName}}</td>
+    </tbody>
+  </table>
+</div>
+<router-outlet></router-outlet>
