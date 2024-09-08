@@ -1,4 +1,4 @@
-FROM httpd:alpine
+FROM httpd:2.4.62-alpine3.20
 LABEL "project.name"="Flexmoney Assignment"
 LABEL "project.tier"="Frontend"
 COPY dist/ /usr/local/apache2/htdocs/
